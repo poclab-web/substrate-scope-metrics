@@ -1,0 +1,16 @@
+name: substrate_scope
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - notebook
+  - anaconda::numpy==1.23.5
+  - anaconda::scipy
+  - anaconda::pandas
+  - conda-forge::rdkit==2023.09.1
+  - anaconda::scikit-learn==1.3.0
+  - conda-forge::matplotlib
+  - anaconda::seaborn
+  - conda-forge::mordred
+  - conda-forge::umap-learn
+  - anaconda::ipywidgets
