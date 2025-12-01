@@ -1,4 +1,4 @@
-name: substrate_scope
+name: substrate-scope-metrics
 channels:
   - defaults
 dependencies:
