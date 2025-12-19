@@ -4,11 +4,15 @@
 ![](https://img.shields.io/badge/License-MIT-orange)
 [![](https://img.shields.io/badge/DOI--brightgreen)]()
 
-Source code and data for "Substrate Scope in Organic Reactions: Comparison of Fingerprint-Based and Reactivity-Informed Similarity Metrics"
+Source code and data for "Substrate Scope in Organic Reactions: Comparison of Fingerprint-Based and Reactivity-Based Similarity Metrics"
 
 
 ## Web Interface
-The web interface is available at (URL).
+
+[![](https://img.shields.io/badge/GitHub-streamlit--substrate--scope--metrics-blue?logo=github)](https://github.com/poclab-web/streamlit-substrate-scope-metrics)
+![](https://img.shields.io/badge/Streamlit-1.52-red?logo=streamlit)
+
+The web interface is available at https://substrate-scope-metrics.streamlit.app/.
 
 
 ## Contents
