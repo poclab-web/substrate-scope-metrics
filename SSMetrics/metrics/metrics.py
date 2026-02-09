@@ -28,6 +28,12 @@ def metrics_range(df):
     df1.loc["max"] = df1.max()
 
     df2 = df1.loc["min":"max"].transpose()
+    df2["Q1"] = df1.quantile(0.25)
+    df2["Q2"] = df1.median()
+    df2["Q3"] = df1.quantile(0.75)
+    df2["std"] = df1.std()
+
+    df2["Q3-Q1"] = df2["Q3"] - df2["Q1"]
     df2["range"] = df2["max"] - df2["min"]
     range_sum = df2["range"].sum()
     print(f"Range: {range_sum}")
@@ -110,6 +116,8 @@ def metrics_distance(df, smiles="SMILES", metric="euclidean", VI=None):
 
     farthest_smiles = df3.at[df3[average_index].idxmax(), smiles]
     print(f"Farthest SMILES: {farthest_smiles}")
+
+    print(f"\nDescribe\n{df3[average_index].describe()}")
     
     return (average_coordinate, distance_sum, distance_avg,
             nearest_smiles, distance_max, farthest_smiles, df2)
