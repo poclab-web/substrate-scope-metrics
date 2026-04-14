@@ -2,7 +2,7 @@
 
 ![](https://img.shields.io/badge/Python-3.10-blue?logo=python)
 ![](https://img.shields.io/badge/License-MIT-orange)
-[![](https://img.shields.io/badge/DOI--brightgreen)]()
+[![](https://img.shields.io/badge/DOI-10.1021/acs.jcim.5c03167-brightgreen)](https://doi.org/10.1021/acs.jcim.5c03167)
 
 Source code and data for "Substrate Scope in Organic Reactions: Comparison of Fingerprint-Based and Reactivity-Based Similarity Metrics"
 
@@ -28,7 +28,7 @@ The web interface is available at https://substrate-scope-metrics.streamlit.app/
 
 
 ## Original Article
-in preparation.
+Ichizawa, K.; Nishii, T.; Gotoh, H. Substrate Scope in Organic Reactions: Comparison of Fingerprint-Based and Reactivity-Based Similarity Metrics. *Journal of Chemical Information and Modeling* **2026**, *66* (7), 3878–3891. DOI: [10.1021/acs.jcim.5c03167](https://doi.org/10.1021/acs.jcim.5c03167)
 
 
 ## License
